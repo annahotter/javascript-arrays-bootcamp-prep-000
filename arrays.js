@@ -11,6 +11,7 @@ var chocolateBars = [
   'kitkat' ,
   'skittles'
 ]
+
 function addElementToBeginningOfArray(chocolateBars, "twix" {
   ["twix",...chocolateBars]
 }
