@@ -25,6 +25,8 @@ function destructivelyAddElementToEndOfArray(chocolateBars, element) {
   return chocolateBars
 }
 
+var array = [1, 2, 3]
+
 function accessElementInArray(array, index) {
   console.log(array[index])
 }
