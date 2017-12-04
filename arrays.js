@@ -12,8 +12,10 @@ var chocolateBars = [
   'skittles'
 ]
 
-function addElementToBeginningOfArray(chocolateBars, "twix" {
-  ["twix",...chocolateBars]
+var nordicCapitals = [1]
+
+function addElementToBeginningOfArray() {
+  ["Oslo",...nordicCapitals]
 }
 
 var nordicCapitals = [1]
