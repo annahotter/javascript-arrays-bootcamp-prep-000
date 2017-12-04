@@ -19,5 +19,5 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  nordicCapitals.
+  nordicCapitals.unshift("Oslo")
 }
