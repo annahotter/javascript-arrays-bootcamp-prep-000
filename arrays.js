@@ -16,7 +16,7 @@ var nordicCapitals = [1]
 
 function addElementToBeginningOfArray() {
   ["Oslo",...nordicCapitals]
-}
+return nordicCapitals}
 
 var nordicCapitals = [1]
 
