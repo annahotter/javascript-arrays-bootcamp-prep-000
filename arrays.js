@@ -1,10 +1,3 @@
-var ingredient1 = "bread"
-var ingredient2 = "mild cheese"
-var ingredient3 = "sharp cheese"
-var ingredient4 = "butter"
-var ingredient5 = "tomato"
-var ingredient6 = "garlic"
-
 var chocolateBars = [
   'snickers' ,
   'hundred grand' ,
@@ -12,22 +5,22 @@ var chocolateBars = [
   'skittles'
 ]
 
-var nordicCapitals = [1]
+var element = "foo"
 
-function addElementToBeginningOfArray() {
-  ["Oslo",...nordicCapitals]
-return nordicCapitals}
-
-var nordicCapitals = [1]
-
-function destructivelyAddElementToBeginningOfArray(array, element) {
-  nordicCapitals.unshift("foo")
+function addElementToBeginningOfArray(chocolateBars, element) {
+  return [element,...chocolateBars]
 }
 
-function addElementToEndOfArray(array, element) {
-  [...nordicCapitals, "Oslo"]
+function destructivelyAddElementToBeginningOfArray(chocolateBars, element) {
+  chocolateBars.unshift(element)
+  return chocolateBars
 }
 
-function destructivelyAddElementToEndOfArray(array, element) {
-  nordicCapitals.push("Oslo")
+function addElementToEndOfArray(chocolateBars, element) {
+  return [...chocolateBars, element]
+}
+
+function destructivelyAddElementToEndOfArray(chocolateBars, element) {
+  chocolateBars.push(element)
+  return chocolateBars
 }
