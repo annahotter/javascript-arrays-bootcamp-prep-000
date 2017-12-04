@@ -34,9 +34,9 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
   return chocolateBars
 }
 
-cons chocolateBars= [1, 2, 3]
+cons numbers = [1, 2, 3]
 
-function removeElementFromBeginningOfArray(chocolateBars) {
-  chocolateBars.slice(1)
+function removeElementFromBeginningOfArray(numbers) {
+  numbers.slice(1)
   return chocolateBars
 }
