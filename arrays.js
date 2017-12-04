@@ -18,8 +18,6 @@ function addElementToBeginningOfArray() {
   ["Oslo",...nordicCapitals]
 }
 
-return nordicCapitals
-
 var nordicCapitals = [1]
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
