@@ -38,5 +38,5 @@ cons numbers = [1, 2, 3]
 
 function removeElementFromBeginningOfArray(numbers) {
   numbers.slice(1)
-  return chocolateBars
+  return numbers
 }
