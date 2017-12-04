@@ -34,9 +34,3 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
   return chocolateBars
 }
 
-cons numbers = [1, 2, 3]
-
-function removeElementFromBeginningOfArray(numbers) {
-  numbers.slice(1)
-  return numbers
-}
