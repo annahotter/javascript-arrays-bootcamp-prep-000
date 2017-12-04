@@ -11,11 +11,8 @@ var chocolateBars = [
   'kitkat' ,
   'skittles'
 ]
-
-var nordicCapitals = [1]
-
-function addElementToBeginningOfArray(array, element) {
-  ["foo",...nordicCapitals]
+function addElementToBeginningOfArray() {
+  ["twix",...chocolateBars]
 }
 
 var nordicCapitals = [1]
