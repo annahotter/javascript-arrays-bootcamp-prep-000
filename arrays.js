@@ -15,5 +15,9 @@ var chocolateBars = [
 var nordicCapitals = [1]
 
 function addElementToBeginningOfArray(array, element) {
-  nordicCapitals.unshift("foo")
+  ["Oslo",...nordicCapitals]
+}
+
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  nordicCapitals.
 }
