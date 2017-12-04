@@ -18,6 +18,16 @@ function addElementToBeginningOfArray(array, element) {
   ["foo",...nordicCapitals]
 }
 
+var nordicCapitals = [1]
+
 function destructivelyAddElementToBeginningOfArray(array, element) {
   nordicCapitals.unshift("foo")
+}
+
+function addElementToEndOfArray(array, element) {
+  [...nordicCapitals, "Oslo"]
+}
+
+function destructivelyAddElementToEndOfArray(array, element) {
+  nordicCapitals.push("Oslo")
 }
